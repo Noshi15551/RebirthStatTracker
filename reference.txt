@@ -1,0 +1,571 @@
+DMG Formula
+-----------
+Effective Damage = 3.5 * (1 + 1.2 * Basic Damage)1/2
+
+
+Bosses
+---------------------
+ 1 Monstro
+ 2 Larry Jr.
+ 3 Chub
+ 4 Gurdy
+ 5 Monstro II
+ 6 Mom
+ 7 Scolex
+ 8 Mom's Heart
+ 9 Famine
+10 Pestilence
+11 War
+12 Death
+13 Duke of Flies
+14 Peep
+15 Loki
+16 Blastocyst
+17 Gemini
+18 Fistula
+19 Gish
+20 Steven
+21 C.H.A.D
+22 Headless Horseman
+23 The Fallen
+24 Satan
+25 It Lives!
+26 The Hollow
+27 The Carrion Queen
+28 Gurdy Jr.
+29 The Husk
+30 The Bloat
+31 Lokii
+32 The Blighted Ovum
+33 Teratoma
+34 The Widow
+35 Mask of Infamy
+36 The Wretched
+37 Pin
+38 Conquest
+39 Isaac
+40 ???
+41 Daddy Long Legs
+42 Triachnid
+43 The Haunt
+44 Dingle
+45 Mega Maw
+46 Mega Maw II
+47 Mega Fatty
+48 Mega Fatty II
+49 Mega Gurdy
+50 Dark One
+51 Dark One II
+52 Polycephalus
+53 Mega Fred
+54 The Lamb
+55 Mega Satan
+56 Gurgalings
+
+MiniBosses
+--------
+ 1 Envy
+ 3 Gluttony
+ 4 SuperGluttony
+ 5 Greed
+ 6 SuperGreed
+ 7 Lust
+ 8 SuperLust
+ 9 Pride
+10 SuperPride
+11 UltraPride
+11 UltraprideBaby
+12 Sloth
+13 SuperSloth
+14 Wrath
+15 SuperWrath
+
+Player IDs
+---------------
+ 0 Isaac
+ 1 Magdalene
+ 2 Cain
+ 3 Judas
+ 4 ???
+ 5 Eve
+ 6 Samson
+ 7 Azazel
+ 8 Lazarus
+ 9 Eden
+10 The lost
+11 Lazarus II
+12 Black Judas
+
+Pills
+---------------------
+ 0 Bad Gas
+ 1 Bad Trip
+ 2 Balls of Steel
+ 3 Bombs are Key
+ 4 Explosive Diarrhea
+ 5 Full Health
+ 6 Health Down
+ 7 Health Up
+ 8 I Found Pills
+ 9 Puberty
+10 Pretty Fly
+11 Range Down
+12 Range Up
+13 Speed Down
+14 Speed Up
+15 Tears Down
+16 Tears Up
+17 Luck Down
+18 Luck Up
+19 Telepills
+20 48 Hour Energy!
+21 Hematemesis
+22 Paralysis
+23 I can See forever!
+24 Pheremones
+25 Amnesia
+26 Lemon party
+27 R U A Wizard?
+
+Cards
+0 NULL
+1 0 - The Fool
+2 I - The Magician
+3 II - The High Priestess
+4 III - The Empress
+5 IV - The Emperor
+6 V - The Hierophant
+7 VI - The Lovers
+8 VII - The Chariot
+9 VIII - Justice
+10 IX - The Hermit
+11 X - Wheel of Fortune
+12 XI - Strength
+13 XII - The Hanged Man
+14 XIII - Death
+15 XIV - Temperance
+16 XV - The Devil
+17 XVI - The Tower
+18 XVII - The Stars
+19 XVIII - The Moon
+20 XIX - The Sun
+21 XX - Judgement
+22 XXI - The World
+23 2 of Clubs
+24 2 of Diamonds
+25 2 of Spades
+26 2 of Hearts
+27 Joker
+
+Items
+-------------------------
+  1 The Sad Onion
+  2 The Inner Eye
+  3 Spoon Bender
+  4 Cricket's Head
+  5 My Reflection
+  6 Number One
+  7 Blood of the Martyr
+  8 Brother Bobby
+  9 Skatole
+ 10 Halo of Flies
+ 11 1up!
+ 12 Magic Mushroom
+ 13 The Virus
+ 14 Roid Rage
+ 15 <3
+ 16 Raw Liver
+ 17 Skeleton Key
+ 18 A Dollar
+ 19 Boom!
+ 20 Transcendence
+ 21 The Compass
+ 22 Lunch
+ 23 Dinner
+ 24 Desert
+ 25 Breakfast
+ 26 Rotten meat
+ 27 Wooden Spoon
+ 28 The Belt
+ 29 Mom's Underwear
+ 30 Mom's Heels
+ 31 Mom's Lipstick
+ 32 Wire Coat Hanger
+ 33 The Bible
+ 34 The Book of Belial
+ 35 The Necronomicon
+ 36 The Poop
+ 37 Mr. Boom
+ 38 Tammy's Head
+ 39 Mom's Bra
+ 40 Kamikaze!
+ 41 Mom's Pad
+ 42 Bob's Rotten Head
+ 43 Pills here!
+ 44 Teleport!
+ 45 Yum Heart
+ 46 Lucky Foot
+ 47 Doctor's Remote
+ 48 Cupid's Arrow
+ 49 Shoop da Whoop!
+ 50 Steven
+ 51 Pentagram
+ 52 Dr. Fetus
+ 53 Magneto
+ 54 Treasure Map
+ 55 Mom's Eye
+ 56 Lemon Mishap
+ 57 Distant Admiration
+ 58 Book of Shadows
+ 59 The Ladder
+ 60 Charm of the Vampire
+ 61 Tarot Card
+ 62 Charm of the Vampire
+ 63 The Battery
+ 64 Steam Sale
+ 65 Anarchist Cookbook
+ 66 The hourglass
+ 67 Sister Maggy
+ 68 Technology
+ 69 Chocolate Milk
+ 70 Growth Hormones
+ 71 Mini Mush
+ 72 Rosary
+ 73 Cube of Meat
+ 74 A Quarter
+ 75 PHD
+ 76 X-Ray Vision
+ 77 My Little Unicorn
+ 78 Book of Revelations
+ 79 The Mark
+ 80 The Pact
+ 81 Dead Cat
+ 82 Lord of the Pit
+ 83 The Nail
+ 84 We Need To Go Deeper!
+ 85 Deck of Cards
+ 86 Monstro's Tooth
+ 87 Loki's Horns
+ 88 Little Chubby
+ 89 Spider Bite
+ 90 The Small Rock
+ 91 Spelunker Hat
+ 92 Super Bandage
+ 93 The Gamekid
+ 94 Sack of Pennies
+ 95 Robo-Baby
+ 96 Little C.H.A.D
+ 97 The Book of Sin
+ 98 The Relic
+ 99 Little Gish
+100 Little Steven
+101 The Halo
+102 Mom's Bottle of Pills
+103 The Common Cold
+104 The Parasite
+105 The D6
+106 Mr. Mega
+107 The Pinking Shears
+108 The Wafer
+109 Money = Power
+110 Mom's Contacts
+111 The Bean
+112 Guardian Angel
+113 Demon Baby
+114 Mom's Knife
+115 Ouija Board
+116 9 Volt
+117 Dead Bird
+118 Brimstone
+119 Blood Bag
+120 Odd Mushroom
+121 Odd Mushroom
+122 Whore of Babylon
+123 Monster Manual
+124 Dead Sea Scrolls
+125 Bobby-Bomb
+126 Razor Blade
+127 Forget Me Now
+128 Forever alone
+129 Bucket of Lard
+130 A Pony
+131 Bomb Bag
+132 A Lump of Coal
+133 Guppy's Paw
+134 Guppy's Tail
+135 IV Bag
+136 Best Friend
+137 Remote Detonator
+138 Stigmata
+139 Mom's Purse
+140 Bob's Curse
+141 Pageant Boy
+142 Scapular
+143 Speed Ball
+144 Bum Friend
+145 Guppy's Head
+146 Prayer Card
+147 Notched Axe
+148 Infestation
+149 Ipecac
+150 Tough Love
+151 The Mulligan
+152 Technology 2
+153 Mutant Spider
+154 Chemical Peel
+155 The Peeper
+156 Habit
+157 Bloody Lust
+158 Crystal Ball
+159 Spirit of the Night
+160 Crack the Sky
+161 Ankh
+162 Celtic Cross
+163 Ghost Baby
+164 The Chandle
+165 Cat-o-nine-tails
+166 D20
+167 Harlqeuin Baby
+168 Epic Fetus
+169 Polyphemus
+170 Doddy Longlegs
+171 Spider Butt
+172 Sacrificial Dagger
+173 Mitre
+174 Rainbow Baby
+175 Dad's Key
+176 Stem Cells
+177 Portable Slot
+178 Holy Water
+179 Fate
+180 The Black bean
+181 White Pony
+182 Sacred Heart
+183 Tooth Picks
+184 Holy Grail
+185 Dead Dove
+186 Blood Rights
+187 Guppy's Hairball
+188 Abel
+189 SMB Super Fan
+190 Pyro
+191 3 Dollar Bill
+192 Telepathy For Dummies
+193 MEAT!
+194 Magic 8 Ball
+195 Mom's Coin Purse
+196 Squeezy
+197 Jesus Juice
+198 Box
+199 Mom's Key
+200 Mom's Eyeshadow
+201 Iron bar
+202 Midas' Touch
+203 Humbleing Bundle
+204 Fanny Pack
+205 Sharp Plug
+206 Guillotine
+207 Ball of Bandages
+208 Champion Belt
+209 Butt Bombs
+210 Gnawed Leaf
+211 Spiderbaby
+212 Guppy's Collar
+213 Lost Contact
+214 Anemic
+215 Goat Head
+216 Ceremonial Robes
+217 Mom's Wig
+218 Placenta
+219 Old Bandage
+220 Sad Bombs
+221 Rubber Cement
+222 Anti-Gravity
+223 Pyromaniac
+224 Cricket's Body
+225 Gimpy
+226 Black Lotus
+227 Piggy Bank
+228 Mom's Perfume
+229 Monstro's Lung
+230 Abaddon
+231 Ball of Tar
+232 Stop Watch
+233 Tiny Planet
+234 Infestation 2
+235 
+236 E. Coli
+237 Death's Touch
+238 Key Piece 1
+239 Key Piece 2
+240 Experimental Treatment
+241 Contract from Below
+242 Infamy
+243 Trinity Shield
+244 Tech.5
+245 20/20
+246 Blue Map
+247 BFFS!
+248 Hive Mind
+249 There's Options
+250 BOGO Bombs
+251 Starter Deck
+252 Little Baggy
+253 Magic Scab
+254 Blood Clot
+255 Screw
+256 Hot Bombs
+257 Fire Mind
+258 Missing No.
+259 Dark Matter
+260 Black Candle
+261 Proptosis
+262 Missing Page 2
+263
+264 Smart Fly
+265 Dry Baby
+266 Juicy Sack
+267 Robo-Baby 2.0
+268 Rotten Baby
+269 headless Baby
+270 Leech
+271 Mystery Sack
+272 BBF
+273 Bob's Brain
+274 Best Bud
+275 Lil' brimstone
+276 Isaac's Hearth
+277 Lil' Haunt
+278 Dark Bum
+279 Big Fan
+280 Sissy Longlegs
+281 Punching Bag
+282 How to Jump
+283 D100
+284 D4
+285 D10
+286 Blank Card
+287 Book of Secrets
+288 Box of Spiders
+289 Red Candle
+290 The jar
+291 Flush!
+292 Satanic Bible
+293 Head of Krampus
+294 Butter Bean
+295 Magic Fingers
+296 Converter
+297 Pandora's Box
+298 Unicorn Stump
+299 Taurus
+300 Aries
+301 Cancer
+302 Leo
+303 Virgo
+304 Libra
+305 Scorpio
+306 Sagittarius
+307 Capricorn
+308 Aquarius
+309 Pisces
+310 Eve's Mascara
+311 Judas' Shadow
+312 Maggy's Bow
+313 Holy Mantle
+314 Thunder Thighs
+315 Strange Attractor
+316 Cursed Eye
+317 Mysterious Liquid
+318 Gemini
+319 Cain's Other Eye
+320 ???'s Only Friend
+321 Samson's Chains
+322 Mongo Baby
+323 Isaac's Tears
+324 Undefined
+325 Scissors
+326 Breath of Life
+327 The Polaroid
+328 The Negative
+329 The Ludovico Technique
+330 Soy Milk
+331 Godhead
+332 Lazarus' Rags
+333 The Mind
+334 The Body
+335 The Soul
+336 Dead Onion
+337 Broken Watch
+338 The Boomerang
+339 Safety Pin
+340 Caffeine Pill
+341 Torn Photo
+342 Blue Cap
+343 Latch Key
+344 Match Book
+345 Synthoil
+346 A Snack
+
+Trinkets
+--------------
+ 1 Swallowed Penny
+ 2 Petrified Poop
+ 3 AAA Battery
+ 4 Broken Remote
+ 5 Purple Heart
+ 6 Broken Magnet
+ 7 Roasry Bead
+ 8 Cartridge
+ 9 Pulse Worm
+10 Wiggle Worm
+11 Ring Worm
+12 Flat Worm
+13 Store Credit
+14 Callus
+15 Lucky Rock
+16 Mom's Toenail
+17 Black Lipstick
+18 Bible Tract
+19 Paper Clip
+20 Monkey Paw
+21 Mysterious Paper
+22 Daemon's Tail
+23 Missing Poster
+24 Butt Penny
+25 Mysterious Candy
+26 Hook Worm
+27 Whip Worm
+28 Broken Ankh
+29 Fish Head
+30 Pinky Eye
+31 Push Pin
+32 Liberty Cap
+33 Umbilicial Cord
+34 Child's heart
+35 Curved Horn
+36 Rusted Key
+37 Goat Hoof
+38 Mom's Pearl
+39 Cancer
+40 Red Patch
+41 Match Stick
+42 Lucky Toe
+43 Cursed Skull
+44 Safety Cap
+45 Ace of Spades
+46 Isaac's Fork
+47
+48 A Missing Page
+49 Bloody Penny
+50 Burnt Penny
+51 Flat Penny
+52 Counterfeit Penny
+53 Tick
+54 Isaac's Head
+55 maggy's Faith
+56 Judas' Tongue
+57 ???'s Soul
+58 Samson's Lock
+59 Cain's Eye
+60 Eve's Bird Foot
+61 The Left Hand

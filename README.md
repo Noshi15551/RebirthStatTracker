@@ -1,16 +1,26 @@
-RebirthItemTracker
-==================
+##Rebirth Stat Tracker
+This is a simple program to log and display data about runs in The Binding of Isaac: Rebirth. It was designed in mind for twitch streamers.  
+It tracks items (collectibles) found, the current seed, and other miscellanous tidbits.  
 
-This uses the log.txt file to track item pickups in Binding of Isaac: Rebirth. This is particularly useful for streamers, so their viewers can see their items, but can be used by anyone. It's easier to see what items you have on the tracker than it is on the pause screen, and it also shows you stats for the item when you pick it up.
+##How To Use
+Simply plop the contents folder included in the .rar into Documents/My Games/Binding of Isaac Rebirth
 
-Here's a screenshot: http://i.imgur.com/BOjJ9WT.png
+##What it looks like
+Isaac Stat Tracker is auto-resizeable! Simply resize to your liking and it will automatically update.
+![Image](http://i.imgur.com/TmCwMVW.png)
 
-Download it here: https://github.com/Hyphen-ated/RebirthItemTracker/releases (get the latest file that doesn't have "source code" in the name)
+##Download
+[Click here to see available releases.](https://github.com/azah/RebirthItemTracker/releases)
 
-To use it, first extract that zip file so the RebirthItemTracker directory ends up the same folder as Rebirth's "log.txt", then run the exe inside.
+##Roadmap
+-implement more try/except error catching
+-bosses / minibosses
+-clean up code
+-Want something else? Contact me and let me know.
 
-log.txt is usually at c:\users\ (you) \Documents\my games\Binding of Isaac Rebirth\
+##Issues & Testing
+The best method for submitting issues found is using [Github's tracker](https://github.com/azah/IsaacStatsTracker/issues).  
+Please submit the **log.txt** and **IsaacStatTracker.exe.log** at the time of issue, using [Pastebin](http://pastebin.com/) or a similar service.
 
-You can right click anywhere in the window to get an options screen.
-
-You can mouse over items you've picked up to see their stats again, and click on them to open platinumgod.co.uk in your browser for more information about that item. (arrow keys and enter also work.)
+##Contact
+If you've got questions, would like to contribute, or would just like to talk about this program, feel free to message [@andrew_zah](https://twitter.com/) on twitter.

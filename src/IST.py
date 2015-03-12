@@ -245,7 +245,7 @@ class IsaacStatTracker:
 
 					if line.startswith('Room'):
 						self.currentRoom = re.match('^(Room )(\d{1,}.\d{1,})\((.*)\)$', line, re.M).group(3)
-						self.roomsEntered += 1
+						self.numberOfRoomsEntered += 1
 						self.logMessage("Entered room: %s" % self.currentRoom, "debug")
 
 					if line.startswith('Adding collectible'):

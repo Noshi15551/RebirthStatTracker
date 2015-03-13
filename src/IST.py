@@ -23,9 +23,10 @@ class IsaacStatTracker:
 		self.displayedItems = []
 		self.displayedImages = []
 		self.collectedItemsInfo = []
-		self.currentSeed = []
+		self.currentSeed = ""
+		self.savedSeed = ""
 		self.currentRoom = ""
-		self.numberOfRoomsEntered = []
+		self.numberOfRoomsEntered = 0
 		self.runStartFrame = []
 		self.bosses = []
 		self.lastRun = {}
@@ -75,14 +76,21 @@ class IsaacStatTracker:
 		if self.lastGeneratedDescription != itemDescription:
 			self.lastGeneratedDescription = itemDescription
 			try:
-				with open('LastItemDescription.txt', 'w') as descriptionSaveFile:
+				with open('TextFiles\LastItemDescription.txt', 'w') as descriptionSaveFile:
 					descriptionSaveFile.write(itemInfo["name"] + itemDescription)
 					self.logMessage("Writing Description File...", "debug")
 			except Exception:
 				self.logMessage("Could not find or open LastItemDescription.txt.", "debug")
 
-		#itemText = font.render("%s%s" % (itemInfo["name"], itemDescription), True, (255, 255, 255))
-		#screen.blit(itemText, (2, 2))
+	def saveSeed(self, seed):
+		if self.savedSeed != self.currentSeed:
+			self.savedSeed = self.currentSeed
+			try:
+				with open('TextFiles\Seed.txt', 'w') as seedSaveFile:
+					seedSaveFile.write(self.currentSeed)
+					self.logMessage("Writing Seed File...", "debug")
+			except Exception:
+				self.logMessage("Could not open Seed.txt", "debug")
 
 
 	def checkIfEndOfRun(self, line, currentLineNumber):
@@ -241,11 +249,12 @@ class IsaacStatTracker:
 						self.run_start_frame = self.frameCount
 						self.clearData(screen)
 						self.runStartLine = currentLineNumber + self.seek
+						self.saveSeed(self.currentSeed)
 						self.isRunOver = False
 
 					if line.startswith('Room'):
 						self.currentRoom = re.match('^(Room )(\d{1,}.\d{1,})\((.*)\)$', line, re.M).group(3)
-						self.roomsEntered += 1
+						self.numberOfRoomsEntered += 1
 						self.logMessage("Entered room: %s" % self.currentRoom, "debug")
 
 					if line.startswith('Adding collectible'):
